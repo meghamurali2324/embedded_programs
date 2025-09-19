@@ -4,7 +4,7 @@
 
 void delay_1s(void){
 	unsigned int i;
-	unsigned int count=610;
+	unsigned int count=61;
 	for(i=0; i<count; i++){
 		TCNT0=0;
 		TCCR0A=0;
