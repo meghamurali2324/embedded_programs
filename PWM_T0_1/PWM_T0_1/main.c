@@ -13,8 +13,8 @@ int main(void)
 {
 	DDRD|=(1<<DDD6);
 	TCCR0A|=(1<<WGM00);
-	TCCR0A=(1<<WGM01);
-	TCCR0A=(1<<COM0A1);
+	TCCR0A|=(1<<WGM01);
+	TCCR0A|=(1<<COM0A1);
 	TCCR0B|=(1<<CS00);
 	TCCR0B|=(1<<CS01);
 	
